@@ -15,4 +15,9 @@ This is a simple Maven project, should compile, build and start with Java 8.
 The app uses an interceptor to log the security context/auth status to the
 console, for every request. Demo-credentials are `user:user` or `admin:admin`.
 
+To try out a quick-fix, described in [#5638][2], simply flick the switch and
+start with the `fix` profile enabled.
+
+    mvn spring-boot:run -Dspring.profiles.active=fix
+
 Have fun!
