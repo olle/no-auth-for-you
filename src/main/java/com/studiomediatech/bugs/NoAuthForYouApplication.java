@@ -38,12 +38,6 @@ public class NoAuthForYouApplication {
 	@EnableGlobalMethodSecurity(prePostEnabled = true)
 	public static class SecurityConfig extends WebSecurityConfigurerAdapter {
 
-		@Bean
-		@ConditionalOnMissingBean(value = ErrorAttributes.class, search = SearchStrategy.CURRENT)
-		public DefaultErrorAttributes errorAttributes() {
-			return new DefaultErrorAttributes();
-		}
-
 		@Override
 		protected void configure(HttpSecurity http) throws Exception {
 			http.authorizeRequests().antMatchers("/**").authenticated();
