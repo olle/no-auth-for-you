@@ -1,6 +1,3 @@
-#debug: true
-#spring.profiles.active: fix
-
 logging:
   level:
     com.studiomediatech.bugs: DEBUG
