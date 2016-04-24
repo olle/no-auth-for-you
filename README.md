@@ -9,14 +9,24 @@ in Spring Boot (with Security) among others.
 ## Overview
 
 As mentioned in [#5638][2], a simple work-around is only possible when using
-a pre 1.3.x version of Spring Boot. Here we have the exact same application,
-setup with the two different versions of Boot - 1.3.3 and 1.2.8.
+a pre 1.3.x version of Spring Boot. Together with my colleague, we've did come
+up with a work-around that also works in 1.3.x - have a look at the
+`ErrorController`.
 
-Enjoy!
+### Spring Boot Versions and their Bug-Status:
+
+* Spring Boot 1.2.8.RELEASE - **no auth for you!**
+* Spring Boot 1.3.3.RELEASE - **no auth for you!**
+* Spring Boot 1.3.4.BUILD-SNAPSHOT - **no auth for you!**
+* Spring Boot 1.4.0.M2 - **no auth for you!**
+
+> Something sneaky did occur though - as I was trying out the 1.3.3.RELEASE fix,
+  I noticed that the problem only appears when the `spring-boot-starter-actuator`
+  is activated. Aha!
 
 ## Getting started
 
-Both apps are simple Maven projects and should compile, build and start as long
+All apps are simple Maven projects and should compile, build and start as long
 as Maven and Java 8 is properly set up. In each project, just run:
 
     mvn spring-boot:run
