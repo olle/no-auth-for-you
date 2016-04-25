@@ -9,7 +9,7 @@ in Spring Boot (with Security) among others.
 ## Overview
 
 As mentioned in [#5638][2], a simple work-around is only possible when using
-a pre 1.3.x version of Spring Boot. Together with my colleague, we've did come
+a pre 1.3.x version of Spring Boot. Together with my colleague, we came
 up with a work-around that also works in 1.3.x - have a look at the
 `ErrorController`.
 
@@ -37,8 +37,8 @@ console, for every request.
 Demo-credentials are `user:user` or `admin:admin`.
 
 To run the app **without** the quick-fix workaround, simply flick the switch
-and start with the `disable-fix` profile.
+and start with the `without-fix` profile.
 
-    mvn spring-boot:run -Dspring.profiles.active=disable-fix
+    mvn spring-boot:run -Dspring.profiles.active=without-fix
 
 Have fun!
