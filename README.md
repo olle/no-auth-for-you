@@ -17,7 +17,8 @@ up with a work-around that also works in 1.3.x - have a look at the
 
 * Spring Boot 1.2.8.RELEASE - **no auth for you!**
 * Spring Boot 1.3.3.RELEASE - **no auth for you!**
-* Spring Boot 1.3.4.BUILD-SNAPSHOT - **no auth for you!**
+* Spring Boot 1.3.4.RELEASE - **no auth for you!**
+* Spring Boot 1.3.5.RELEASE - **no auth for you!**
 * Spring Boot 1.4.0.M2 - **no auth for you!**
 
 > Something sneaky did occur though - as I was trying out the 1.3.3.RELEASE fix,
