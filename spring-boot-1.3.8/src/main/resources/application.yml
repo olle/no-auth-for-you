@@ -1,0 +1,6 @@
+security:
+  filter-dispatcher-types: ASYNC, FORWARD, INCLUDE, REQUEST, ERROR
+    
+logging:
+  level:
+    com.studiomediatech.bugs: DEBUG

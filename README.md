@@ -13,7 +13,7 @@ a pre 1.3.x version of Spring Boot. Together with my colleague, we came
 up with a work-around that also works in 1.3.x - have a look at the
 `ErrorController`.
 
-### Spring Boot Versions and their Bug-Status:
+### Spring Boot Versions and Bug-Status:
 
 * Spring Boot 1.2.8.RELEASE - **no auth for you!**
 * Spring Boot 1.3.3.RELEASE - **no auth for you!**
@@ -21,6 +21,7 @@ up with a work-around that also works in 1.3.x - have a look at the
 * Spring Boot 1.3.5.RELEASE - **no auth for you!**
 * Spring Boot 1.3.6.RELEASE - **no auth for you!**
 * Spring Boot 1.3.7.RELEASE - **no auth for you!**
+* Spring Boot 1.3.8.RELEASE - **no auth for you!**
 * Spring Boot 1.4.0.RELEASE - **no auth for you!**
 
 > Something sneaky did occur though - as I was trying out the 1.3.3.RELEASE fix,
