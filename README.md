@@ -1,6 +1,7 @@
 # No Auth For You! #
 
-**UPDATE: Starting with 1.5.0.RC there will be auth for you!**
+**UPDATE: Starting with 1.5.0.RELEASE there will be auth for you! So pack up
+your tents, upgrade and go home.**
 
 A small fixture-project that examplifies the issues [#1048][1] and [#5638][2]
 in Spring Boot (with Security) among others.
@@ -27,7 +28,9 @@ up with a work-around that also works in 1.3.x - have a look at the
 * Spring Boot 1.4.0.RELEASE - **no auth for you!**
 * Spring Boot 1.4.1.RELEASE - **no auth for you!**
 * Spring Boot 1.4.2.RELEASE - **no auth for you!**
-* Spring Boot 1.5.0.RC - **Yes! Yees, there's auth for you!**
+* Spring Boot 1.4.3.RELEASE - **no auth for you!**
+* Spring Boot 1.4.4.RELEASE - **no auth for you!**
+* Spring Boot 1.5.0.RELEASE - **Yes! Yees, there's auth for you!**
 
 > Something sneaky did occur though - as I was trying out the 1.3.3.RELEASE fix,
   I noticed that the problem only appears when the `spring-boot-starter-actuator`

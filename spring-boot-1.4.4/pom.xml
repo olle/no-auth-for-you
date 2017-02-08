@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.studiomediatech.bugs</groupId>
-	<artifactId>no-auth-for-you-1.5.0.RC1</artifactId>
+	<artifactId>no-auth-for-you-1.4.4</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
@@ -13,29 +13,8 @@
   <parent>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-parent</artifactId>
-      <version>1.5.0.RC1</version>
+      <version>1.4.4.RELEASE</version>
   </parent>
-
-  <repositories>
-      <repository>
-          <id>spring-milestones</id>
-          <name>Spring Milestones</name>
-          <url>https://repo.spring.io/libs-milestone</url>
-          <snapshots>
-              <enabled>false</enabled>
-          </snapshots>
-      </repository>
-  </repositories>
-  <pluginRepositories>
-      <pluginRepository>
-          <id>spring-snapshots</id>
-          <url>http://repo.spring.io/snapshot</url>
-      </pluginRepository>
-      <pluginRepository>
-          <id>spring-milestones</id>
-          <url>http://repo.spring.io/milestone</url>
-      </pluginRepository>
-  </pluginRepositories>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
